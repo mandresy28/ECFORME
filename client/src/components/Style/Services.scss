@@ -1,0 +1,22 @@
+.services__container {
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  .services__title {
+    font-size: 2rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+  
+  .cards__wrapper1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto;
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .cards__wrapper1 {
+      flex-direction: column;
+    }
+  }
+  
